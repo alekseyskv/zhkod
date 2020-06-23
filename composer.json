@@ -1,0 +1,25 @@
+{
+  "minimum-stability": "stable",
+  "require": {
+    "symfony/routing": "^4",
+    "symfony/config": "^4",
+    "symfony/templating": "^4",
+    "symfony/http-kernel": "^4",
+    "symfony/http-foundation": "^4",
+    "symfony/security": "^4",
+    "doctrine/dbal": "^2"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
+
+

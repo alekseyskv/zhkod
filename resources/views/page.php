@@ -1,0 +1,5 @@
+PAGE tpl
+
+<br>
+
+<?= $alias ?>
